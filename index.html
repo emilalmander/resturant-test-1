@@ -2,7 +2,8 @@
 <html>
 <head>
   <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"> 
+  
 </head>
 
 <body>
@@ -15,10 +16,10 @@
   
       <ul class="menu__box">
         <li><a class="menu__item" href="#">Home</a></li>
-        <li><a class="menu__item" href="#">About</a></li>
-        <li><a class="menu__item" href="#">Team</a></li>
-        <li><a class="menu__item" href="#">Contact</a></li>
-        <li><a class="menu__item" href="#">Twitter</a></li>
+        <li><a class="menu__item" href="#location">location</a></li>
+        
+        <li><a class="menu__item" href="#slider">the food</a></li>
+        <li><a class="menu__item" href="#reservation_info_section">reservation info</a></li>
       </ul>
     </div>
     <div class="Kaiseki_Storeys">
@@ -35,10 +36,38 @@
         <h1>welcome to Keiseki Storeys</h1>
       </div>
     </div>
-    <div class="background-container_2">
+
+    <div id="location" class="location">
       <img src="images/jason-sung-zallf-0YGJM-unsplash.jpg">
+        <div class="resturant_location">
+          <h1>Strömstadsvägen 15, 455 30 Munkedal Sweden</h1>
+        </div>
     </div>
-    
+
+    <div id="slider" class="slider">
+      <div class="arrow left">&lt;</div>
+      <div class="arrow right">&gt;</div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+    </div>
+    <script src="main.js"></script>
+
+    <div id="reservation_info_section"class="make_a_reservation">
+      <img src="images/jonathan-borba-KbTlF4lABFM-unsplash.jpg">
+      <div class="reservation_info">
+        <h1>MAKE A BOOKING</h1>
+        <h2>We will be closed from August 10th to September 15th.</h2>
+        <h3>Tables for the next month will open for booking on the 15th of each month at 9 AM local time.</h3>
+        <h3>Please note that we are unable to accommodate gluten-free menus or menus free from shellfish and peanuts.</h3>
+        
+        <button class="reservation_button">Reservation</button>
+        
+          
+      </div>
+    </div>
   </main>
 </body>
 </html>
