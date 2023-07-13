@@ -25,7 +25,28 @@
     <div class="Kaiseki_Storeys">
       <ul><a href="#">Kaiseki Storeys</a></ul>
     </div>
-      <button class="reservation">reservation</button>
+    <button onclick="showPopup()">reservation</button>
+
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close" onclick="hidePopup()">&times;</span>
+        <h1>Reservation Options</h1>
+        <h2>how many are you?</h2>
+
+        <p>Select an option:</p>
+        <select id="reservationOptions">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+        
+        
+      </div>
+    </div>
+
 
   </header>
     
@@ -63,7 +84,6 @@
         <h3>Tables for the next month will open for booking on the 15th of each month at 9 AM local time.</h3>
         <h3>Please note that we are unable to accommodate gluten-free menus or menus free from shellfish and peanuts.</h3>
         
-        <button class="reservation_button">Reservation</button>
         
           
       </div>
